@@ -1,0 +1,6 @@
+apiVersion: redis.io/v1beta1
+kind: RedisCluster
+metadata:
+  name: test
+spec:
+  size: 3
